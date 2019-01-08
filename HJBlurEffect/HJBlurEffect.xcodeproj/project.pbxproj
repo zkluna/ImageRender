@@ -158,12 +158,12 @@
 		DE0F26122188488300C647BB /* blur */ = {
 			isa = PBXGroup;
 			children = (
+				DE0F26182188488300C647BB /* ImpTypeHeader.h */,
 				DE0F26132188488300C647BB /* ImpTypeHeader.m */,
 				DE0F26142188488300C647BB /* ShowImageVC.h */,
+				DE0F26172188488300C647BB /* ShowImageVC.m */,
 				DE0F26152188488300C647BB /* BaseBlurListVC.h */,
 				DE0F26162188488300C647BB /* BaseBlurListVC.m */,
-				DE0F26172188488300C647BB /* ShowImageVC.m */,
-				DE0F26182188488300C647BB /* ImpTypeHeader.h */,
 			);
 			path = blur;
 			sourceTree = "<group>";
