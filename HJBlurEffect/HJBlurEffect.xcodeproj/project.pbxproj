@@ -3,12 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		61A50B755FFF4CD27A2B8FC5 /* libPods-HJBlurEffectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384E03A2197CB0D582EA0376 /* libPods-HJBlurEffectUITests.a */; };
 		9E06654F2E51E471ADFA45A4 /* libPods-HJBlurEffect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 576B163BBC0B586BA13599F8 /* libPods-HJBlurEffect.a */; };
+		B53E646E2689CB1200FAD010 /* GPUDemoList.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E646D2689CB1200FAD010 /* GPUDemoList.m */; };
+		B53E64742689D29B00FAD010 /* BenchmarkList.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E64732689D29B00FAD010 /* BenchmarkList.m */; };
+		B53E64772689D77800FAD010 /* ImageFilterBenchmarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E64762689D77800FAD010 /* ImageFilterBenchmarkVC.m */; };
+		B53E647A2689D89100FAD010 /* Lambeau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B53E64792689D89100FAD010 /* Lambeau.jpg */; };
+		B53E647D268AC27100FAD010 /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E647C268AC27100FAD010 /* ImageHelper.m */; };
+		B53E6480268B02F800FAD010 /* VideoFilterDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E647F268B02F800FAD010 /* VideoFilterDisplayVC.m */; };
+		B53E6483268B20D800FAD010 /* VideoBenchmarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E6482268B20D800FAD010 /* VideoBenchmarkVC.m */; };
+		B53E6489268B2D5800FAD010 /* SimpleImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E6488268B2D5800FAD010 /* SimpleImageVC.m */; };
+		B53E648B268B305900FAD010 /* WID-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B53E648A268B305900FAD010 /* WID-small.jpg */; };
+		B56264892696A4B70017687B /* PhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B56264882696A4B70017687B /* PhotoVC.m */; };
+		B562648F2696D5420017687B /* SimpleVideoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B562648C2696D5420017687B /* SimpleVideoFilterViewController.m */; };
+		B56264902696D5420017687B /* SimpleVideoFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B562648D2696D5420017687B /* SimpleVideoFilterViewController.xib */; };
+		B56264942696D9020017687B /* Shader1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B56264932696D9020017687B /* Shader1.fsh */; };
+		B56264962696DB950017687B /* Shader2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B56264952696DB950017687B /* Shader2.fsh */; };
+		B562649F269821490017687B /* MultViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B562649E269821490017687B /* MultViewVC.m */; };
+		B56264A4269829080017687B /* PositionColor.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B56264A2269829080017687B /* PositionColor.fsh */; };
+		B56264A5269829080017687B /* Threshold.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B56264A3269829080017687B /* Threshold.fsh */; };
+		B56264A8269829FA0017687B /* ColorTrackingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B56264A7269829FA0017687B /* ColorTrackingVC.m */; };
+		B5DA74F2269D7E0900D03316 /* CustomFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B5DA74F1269D7E0900D03316 /* CustomFilter.fsh */; };
+		B5DA74F8269D7F4100D03316 /* ShowcaseFilterListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA74F3269D7F4100D03316 /* ShowcaseFilterListController.m */; };
+		B5DA74F9269D7F4100D03316 /* ShowcaseFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA74F4269D7F4100D03316 /* ShowcaseFilterViewController.m */; };
+		B5DA74FA269D7F4100D03316 /* ShowcaseFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA74F5269D7F4100D03316 /* ShowcaseFilterViewController.xib */; };
 		DE0F261A2188488300C647BB /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE0F26112188488300C647BB /* img1.jpg */; };
 		DE0F261B2188488300C647BB /* ImpTypeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0F26132188488300C647BB /* ImpTypeHeader.m */; };
 		DE0F261C2188488300C647BB /* BaseBlurListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0F26162188488300C647BB /* BaseBlurListVC.m */; };
@@ -55,6 +77,41 @@
 		7DD799D75F7A99FE25B03A9C /* Pods-HJBlurEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJBlurEffect.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect.release.xcconfig"; sourceTree = "<group>"; };
 		8C8F1C208F1220F00EE1092A /* Pods-HJBlurEffectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJBlurEffectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJBlurEffectUITests/Pods-HJBlurEffectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8844AED7D9F413D1E8F914C /* Pods-HJBlurEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJBlurEffect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect.debug.xcconfig"; sourceTree = "<group>"; };
+		B53E646C2689CB1200FAD010 /* GPUDemoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUDemoList.h; sourceTree = "<group>"; };
+		B53E646D2689CB1200FAD010 /* GPUDemoList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUDemoList.m; sourceTree = "<group>"; };
+		B53E64722689D29B00FAD010 /* BenchmarkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenchmarkList.h; sourceTree = "<group>"; };
+		B53E64732689D29B00FAD010 /* BenchmarkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenchmarkList.m; sourceTree = "<group>"; };
+		B53E64752689D77800FAD010 /* ImageFilterBenchmarkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilterBenchmarkVC.h; sourceTree = "<group>"; };
+		B53E64762689D77800FAD010 /* ImageFilterBenchmarkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilterBenchmarkVC.m; sourceTree = "<group>"; };
+		B53E64792689D89100FAD010 /* Lambeau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lambeau.jpg; sourceTree = "<group>"; };
+		B53E647B268AC27100FAD010 /* ImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImageHelper.h; path = HJBlurEffect/GPUImage/ImageHelper.h; sourceTree = SOURCE_ROOT; };
+		B53E647C268AC27100FAD010 /* ImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ImageHelper.m; path = HJBlurEffect/GPUImage/ImageHelper.m; sourceTree = SOURCE_ROOT; };
+		B53E647E268B02F800FAD010 /* VideoFilterDisplayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoFilterDisplayVC.h; sourceTree = "<group>"; };
+		B53E647F268B02F800FAD010 /* VideoFilterDisplayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFilterDisplayVC.m; sourceTree = "<group>"; };
+		B53E6481268B20D800FAD010 /* VideoBenchmarkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoBenchmarkVC.h; sourceTree = "<group>"; };
+		B53E6482268B20D800FAD010 /* VideoBenchmarkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBenchmarkVC.m; sourceTree = "<group>"; };
+		B53E6487268B2D5800FAD010 /* SimpleImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleImageVC.h; sourceTree = "<group>"; };
+		B53E6488268B2D5800FAD010 /* SimpleImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleImageVC.m; sourceTree = "<group>"; };
+		B53E648A268B305900FAD010 /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WID-small.jpg"; sourceTree = "<group>"; };
+		B56264872696A4B70017687B /* PhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVC.h; sourceTree = "<group>"; };
+		B56264882696A4B70017687B /* PhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoVC.m; sourceTree = "<group>"; };
+		B562648C2696D5420017687B /* SimpleVideoFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoFilterViewController.m; sourceTree = "<group>"; };
+		B562648D2696D5420017687B /* SimpleVideoFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleVideoFilterViewController.xib; sourceTree = "<group>"; };
+		B562648E2696D5420017687B /* SimpleVideoFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleVideoFilterViewController.h; sourceTree = "<group>"; };
+		B56264932696D9020017687B /* Shader1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shader1.fsh; sourceTree = "<group>"; };
+		B56264952696DB950017687B /* Shader2.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shader2.fsh; sourceTree = "<group>"; };
+		B562649D269821490017687B /* MultViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultViewVC.h; sourceTree = "<group>"; };
+		B562649E269821490017687B /* MultViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultViewVC.m; sourceTree = "<group>"; };
+		B56264A2269829080017687B /* PositionColor.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PositionColor.fsh; sourceTree = "<group>"; };
+		B56264A3269829080017687B /* Threshold.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Threshold.fsh; sourceTree = "<group>"; };
+		B56264A6269829FA0017687B /* ColorTrackingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorTrackingVC.h; sourceTree = "<group>"; };
+		B56264A7269829FA0017687B /* ColorTrackingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingVC.m; sourceTree = "<group>"; };
+		B5DA74F1269D7E0900D03316 /* CustomFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CustomFilter.fsh; sourceTree = "<group>"; };
+		B5DA74F3269D7F4100D03316 /* ShowcaseFilterListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseFilterListController.m; sourceTree = "<group>"; };
+		B5DA74F4269D7F4100D03316 /* ShowcaseFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseFilterViewController.m; sourceTree = "<group>"; };
+		B5DA74F5269D7F4100D03316 /* ShowcaseFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowcaseFilterViewController.xib; sourceTree = "<group>"; };
+		B5DA74F6269D7F4100D03316 /* ShowcaseFilterListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseFilterListController.h; sourceTree = "<group>"; };
+		B5DA74F7269D7F4100D03316 /* ShowcaseFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseFilterViewController.h; sourceTree = "<group>"; };
 		DE0F26112188488300C647BB /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
 		DE0F26132188488300C647BB /* ImpTypeHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpTypeHeader.m; sourceTree = "<group>"; };
 		DE0F26142188488300C647BB /* ShowImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageVC.h; sourceTree = "<group>"; };
@@ -140,9 +197,67 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B53E646B2689CAE200FAD010 /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				B56264A1269828E40017687B /* shader */,
+				B53E64782689D87A00FAD010 /* resource */,
+				B53E646C2689CB1200FAD010 /* GPUDemoList.h */,
+				B53E646D2689CB1200FAD010 /* GPUDemoList.m */,
+				B53E64722689D29B00FAD010 /* BenchmarkList.h */,
+				B53E64732689D29B00FAD010 /* BenchmarkList.m */,
+				B53E64752689D77800FAD010 /* ImageFilterBenchmarkVC.h */,
+				B53E64762689D77800FAD010 /* ImageFilterBenchmarkVC.m */,
+				B53E647E268B02F800FAD010 /* VideoFilterDisplayVC.h */,
+				B53E647F268B02F800FAD010 /* VideoFilterDisplayVC.m */,
+				B53E6481268B20D800FAD010 /* VideoBenchmarkVC.h */,
+				B53E6482268B20D800FAD010 /* VideoBenchmarkVC.m */,
+				B53E6487268B2D5800FAD010 /* SimpleImageVC.h */,
+				B53E6488268B2D5800FAD010 /* SimpleImageVC.m */,
+				B56264872696A4B70017687B /* PhotoVC.h */,
+				B56264882696A4B70017687B /* PhotoVC.m */,
+				B562649D269821490017687B /* MultViewVC.h */,
+				B562649E269821490017687B /* MultViewVC.m */,
+				B5DA74F6269D7F4100D03316 /* ShowcaseFilterListController.h */,
+				B5DA74F3269D7F4100D03316 /* ShowcaseFilterListController.m */,
+				B5DA74F7269D7F4100D03316 /* ShowcaseFilterViewController.h */,
+				B5DA74F4269D7F4100D03316 /* ShowcaseFilterViewController.m */,
+				B5DA74F5269D7F4100D03316 /* ShowcaseFilterViewController.xib */,
+				B56264A6269829FA0017687B /* ColorTrackingVC.h */,
+				B56264A7269829FA0017687B /* ColorTrackingVC.m */,
+				B562648E2696D5420017687B /* SimpleVideoFilterViewController.h */,
+				B562648C2696D5420017687B /* SimpleVideoFilterViewController.m */,
+				B562648D2696D5420017687B /* SimpleVideoFilterViewController.xib */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		B53E64782689D87A00FAD010 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B53E648A268B305900FAD010 /* WID-small.jpg */,
+				B53E64792689D89100FAD010 /* Lambeau.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		B56264A1269828E40017687B /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				B5DA74F1269D7E0900D03316 /* CustomFilter.fsh */,
+				B56264A2269829080017687B /* PositionColor.fsh */,
+				B56264A3269829080017687B /* Threshold.fsh */,
+				B56264932696D9020017687B /* Shader1.fsh */,
+				B56264952696DB950017687B /* Shader2.fsh */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
 		DE0F26092188476500C647BB /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				B53E647B268AC27100FAD010 /* ImageHelper.h */,
+				B53E647C268AC27100FAD010 /* ImageHelper.m */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -215,6 +330,7 @@
 		DE7923032186B82F00BEF8E5 /* HJBlurEffect */ = {
 			isa = PBXGroup;
 			children = (
+				B53E646B2689CAE200FAD010 /* GPUImage */,
 				DE0F262121884ECE00C647BB /* other */,
 				DE0F26122188488300C647BB /* blur */,
 				DE0F26192188488300C647BB /* category */,
@@ -358,12 +474,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DA74F2269D7E0900D03316 /* CustomFilter.fsh in Resources */,
+				B53E647A2689D89100FAD010 /* Lambeau.jpg in Resources */,
+				B5DA74FA269D7F4100D03316 /* ShowcaseFilterViewController.xib in Resources */,
 				DE7923112186B83100BEF8E5 /* LaunchScreen.storyboard in Resources */,
+				B56264A5269829080017687B /* Threshold.fsh in Resources */,
+				B56264902696D5420017687B /* SimpleVideoFilterViewController.xib in Resources */,
 				DE0F261A2188488300C647BB /* img1.jpg in Resources */,
+				B56264942696D9020017687B /* Shader1.fsh in Resources */,
 				DE79230E2186B83100BEF8E5 /* Assets.xcassets in Resources */,
 				DE79230C2186B82F00BEF8E5 /* Main.storyboard in Resources */,
 				DE0F262E2188558C00C647BB /* CategoryListVC.xib in Resources */,
+				B56264A4269829080017687B /* PositionColor.fsh in Resources */,
+				B53E648B268B305900FAD010 /* WID-small.jpg in Resources */,
 				DE0F2629218850F000C647BB /* CategoryTestVC.xib in Resources */,
+				B56264962696DB950017687B /* Shader2.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,28 +559,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect-resources.sh",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
-				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HJBlurEffect/Pods-HJBlurEffect-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD53672CF8A137481B588C59 /* [CP] Check Pods Manifest.lock */ = {
@@ -487,15 +599,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B562648F2696D5420017687B /* SimpleVideoFilterViewController.m in Sources */,
+				B5DA74F9269D7F4100D03316 /* ShowcaseFilterViewController.m in Sources */,
+				B5DA74F8269D7F4100D03316 /* ShowcaseFilterListController.m in Sources */,
+				B53E6489268B2D5800FAD010 /* SimpleImageVC.m in Sources */,
+				B53E64772689D77800FAD010 /* ImageFilterBenchmarkVC.m in Sources */,
+				B53E6483268B20D800FAD010 /* VideoBenchmarkVC.m in Sources */,
 				DE0F261C2188488300C647BB /* BaseBlurListVC.m in Sources */,
 				DE7923092186B82F00BEF8E5 /* ViewController.m in Sources */,
+				B53E647D268AC27100FAD010 /* ImageHelper.m in Sources */,
+				B56264892696A4B70017687B /* PhotoVC.m in Sources */,
 				DE0F262D2188558C00C647BB /* CategoryListVC.m in Sources */,
 				DE0F2628218850F000C647BB /* CategoryTestVC.m in Sources */,
 				DE0F2620218848E900C647BB /* UIImage+Extend.m in Sources */,
+				B53E64742689D29B00FAD010 /* BenchmarkList.m in Sources */,
+				B562649F269821490017687B /* MultViewVC.m in Sources */,
 				DE7923142186B83100BEF8E5 /* main.m in Sources */,
 				DE0F261D2188488300C647BB /* ShowImageVC.m in Sources */,
 				DE7923062186B82F00BEF8E5 /* AppDelegate.m in Sources */,
 				DE0F261B2188488300C647BB /* ImpTypeHeader.m in Sources */,
+				B53E646E2689CB1200FAD010 /* GPUDemoList.m in Sources */,
+				B53E6480268B02F800FAD010 /* VideoFilterDisplayVC.m in Sources */,
+				B56264A8269829FA0017687B /* ColorTrackingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,13 +793,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				DEVELOPMENT_TEAM = UT282N9QDY;
 				INFOPLIST_FILE = HJBlurEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hjkl.HJBlurEffect1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhh.HJTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -686,13 +811,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 93KPP6N3A7;
+				DEVELOPMENT_TEAM = UT282N9QDY;
 				INFOPLIST_FILE = HJBlurEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hjkl.HJBlurEffect1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhh.HJTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

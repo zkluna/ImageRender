@@ -22,8 +22,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"图片处理";
-    self.typeNames = @[@"滤镜处理",@"Category"];
-    self.vcNames = @[@"BaseBlurListVC",@"CategoryListVC"];
+    self.typeNames = @[@"滤镜处理",@"Category", @"GPUImage Demo"];
+    self.vcNames = @[@"BaseBlurListVC",@"CategoryListVC", @"GPUDemoList"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     self.tableView.tableFooterView = [UIView new];
 }

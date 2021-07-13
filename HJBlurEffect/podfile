@@ -6,8 +6,8 @@ target 'HJBlurEffect' do
   # use_frameworks!
 
   # Pods for HJBlurEffect
-  pod 'GPUImage', '~> 0.1.7'
-  pod 'SDAutoLayout', '~> 2.2.1'
+  pod 'GPUImage'
+  pod 'SDAutoLayout'
 
   target 'HJBlurEffectTests' do
     inherit! :search_paths
